@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZibraAILiquid.Editor", "Zib
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZibraAILiquid.Settings.Editor", "ZibraAILiquid.Settings.Editor.csproj", "{68E99EDB-8B70-04D3-5467-D87A12577745}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{E3F057E9-99C4-74C1-69E4-62C5E3D2AA65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{68E99EDB-8B70-04D3-5467-D87A12577745}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68E99EDB-8B70-04D3-5467-D87A12577745}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68E99EDB-8B70-04D3-5467-D87A12577745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3F057E9-99C4-74C1-69E4-62C5E3D2AA65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F057E9-99C4-74C1-69E4-62C5E3D2AA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F057E9-99C4-74C1-69E4-62C5E3D2AA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F057E9-99C4-74C1-69E4-62C5E3D2AA65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
