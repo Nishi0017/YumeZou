@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Script\BlurObject.cs" />
     <Compile Include="Assets\Script\AwaGenerater.cs" />
+    <Compile Include="Assets\Script\AwaController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shader\Blur.shader" />
