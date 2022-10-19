@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class AwaController : MonoBehaviour
 {
-    Rigidbody rb;
-    Transform tr;
+    private Rigidbody rb;
+    private Transform tr;
+
     void Start()
     {
+
         rb = this.GetComponent<Rigidbody>();
         tr = gameObject.transform;
         float[] rnd = new float[3];
