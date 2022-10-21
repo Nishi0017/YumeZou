@@ -37,7 +37,7 @@ AnimatorController:
   m_AnimatorParameters: []
   m_AnimatorLayers:
   - serializedVersion: 5
-    m_Name: Base Layer
+    m_Name: yureru
     m_StateMachine: {fileID: 8509382621934379828}
     m_Mask: {fileID: 0}
     m_Motions: []
@@ -55,11 +55,11 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Base Layer
+  m_Name: yureru
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -2934008219302799009}
-    m_Position: {x: 200, y: 0, z: 0}
+    m_Position: {x: 200, y: 200, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
