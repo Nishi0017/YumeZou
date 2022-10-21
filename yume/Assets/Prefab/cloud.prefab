@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _renderer: {fileID: 5271585820617462094}
-  _trailRate: 20
+  _trailRate: 10
 --- !u!114 &8507776883629434157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,5 +155,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.023547782, y: 0.015183932, z: 0.012610387}
-  m_Center: {x: -0.007888701, y: 0.0015300382, z: 0.0011648373}
+  m_Size: {x: 0.017400797, y: 0.01000368, z: 0.009753552}
+  m_Center: {x: -0.008102437, y: 0.0012766611, z: -0.00026358318}
