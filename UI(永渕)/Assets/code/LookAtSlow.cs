@@ -10,7 +10,7 @@ public class LookAtSlow : MonoBehaviour
     void Update()
     {
         // 補完スピードを決める
-        float speed = 0.1f;
+        float speed = 0.01f;
         // ターゲット方向のベクトルを取得
         Vector3 relativePos = targetObject.transform.position - this.transform.position;
         // 方向を、回転情報に変換
