@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638017699479475763
+      ticks: 638022886835600523
     m_Hash: 3358821645
   m_LockFileStatus:
     m_FilePath: "C:/Users/tomoaki/Documents/GitHub/YumeZou/UI(\u6C38\u6E15)/Packages/packages-lock.json"
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638017699479475763
+      ticks: 638022886835600523
     m_Hash: 4231173782
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -836,12 +836,14 @@ m_ResolvedPackages:
     - 1.7.0-pre.2
     - 1.7.0
     - 1.7.1
+    - 1.7.2
     compatible:
     - 1.6.4
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
     - 1.7.1
+    - 1.7.2
     verified: 1.6.4
   dependencies:
   - name: com.unity.modules.director
@@ -3160,10 +3162,12 @@ m_ResolvedPackages:
     - 1.0.6
     - 1.1.0
     - 1.1.1
+    - 1.1.2
     compatible:
     - 1.1.0
     - 1.1.1
-    verified: 1.1.1
+    - 1.1.2
+    verified: 1.1.2
   dependencies:
   - name: com.unity.modules.subsystems
     version: 1.0.0
@@ -3519,9 +3523,11 @@ m_ResolvedPackages:
     - 1.4.1
     - 1.4.2
     - 1.4.3
+    - 1.5.2
     compatible:
     - 1.4.2
     - 1.4.3
+    - 1.5.2
     verified: 1.4.3
   dependencies:
   - name: com.unity.modules.unitywebrequest
