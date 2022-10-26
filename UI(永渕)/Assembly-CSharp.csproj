@@ -44,6 +44,7 @@
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\BouncingBallMgr.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughProjectionSurface.cs" />
+     <Compile Include="Assets\code\LookAtSlow.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\CowController.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\HandMeshUI.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\VolumeAndPlaneSwitcher.cs" />
@@ -77,7 +78,6 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTransitionWarp.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Scripts\VectorUtil.cs" />
-     <Compile Include="Assets\code\LookAtTarget.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\PauseOnInputLoss.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\InteractableToolsCreator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
@@ -123,6 +123,7 @@
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughBrush.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\code\test.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\ColliderZone.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Scripts\MoviePlayerSampleControls.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\WindmillController.cs" />
@@ -156,7 +157,6 @@
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\HandMeshMask.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\FurnitureSpawner.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
-     <Compile Include="Assets\code\LookAtCamaraCanvas.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTransitionBlink.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\PinchStateModule.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\WindmillBladesController.cs" />
@@ -879,9 +879,6 @@
     <Reference Include="System.Xml.Serialization">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -894,8 +891,44 @@
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
         <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management">
+        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Oculus.Editor">
+        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management.Editor">
+        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
@@ -906,41 +939,26 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+    <Reference Include="Unity.Subsystem.Registration">
+        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
         <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
         <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core">
         <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
         <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
         <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
@@ -951,41 +969,91 @@
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Oculus">
+        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
         <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management">
-        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management.Editor">
-        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Subsystem.Registration">
-        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Oculus.Editor">
-        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Oculus">
-        <HintPath>C:\Users\kumax\Documents\GitHub\YumeZou\UI(永渕)\Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="AssistantCoreSDKEditor.csproj">
+      <Project>{916323cf-4c0d-05f4-82c6-2a3e9bad74c6}</Project>
+      <Name>AssistantCoreSDKEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Voice.Demo.csproj">
+      <Project>{b8e64a87-faba-8d0a-70b9-480221230326}</Project>
+      <Name>Oculus.Voice.Demo</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.AudioManager.csproj">
+      <Project>{d247f38b-e87f-8621-bd19-103e1997862e}</Project>
+      <Name>Oculus.AudioManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Interaction.csproj">
+      <Project>{84746019-346b-15cb-29bb-d91a091ddad3}</Project>
+      <Name>Oculus.Interaction</Name>
+    </ProjectReference>
+    <ProjectReference Include="AssistantCoreSDKRuntime.csproj">
+      <Project>{2cf374a9-6327-00a1-b0cd-34e31bb49956}</Project>
+      <Name>AssistantCoreSDKRuntime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.AudioManager.Utils.Editor.csproj">
+      <Project>{cc0abc36-78e8-ad97-2443-61bb6a07b6f0}</Project>
+      <Name>Oculus.AudioManager.Utils.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Facebook.Wit.Conduit.csproj">
+      <Project>{b4ffbc61-0338-70dc-202b-471f82d8f87e}</Project>
+      <Name>Facebook.Wit.Conduit</Name>
+    </ProjectReference>
+    <ProjectReference Include="LitJson.csproj">
+      <Project>{9d45d8ef-e0c1-4cb2-f285-2d69f01545ed}</Project>
+      <Name>LitJson</Name>
+    </ProjectReference>
+    <ProjectReference Include="Facebook.WitAI.csproj">
+      <Project>{6037afdf-e768-d344-676e-018306ed3d33}</Project>
+      <Name>Facebook.WitAI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Facebook.Wit.Dictation.csproj">
+      <Project>{828cd408-66fd-b816-b052-ef0ccc0129a1}</Project>
+      <Name>Facebook.Wit.Dictation</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Platform.csproj">
+      <Project>{effeff2c-b79e-3e21-1b48-cbceaa30e528}</Project>
+      <Name>Oculus.Platform</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.VR.csproj">
+      <Project>{3774fb66-ba6d-ee39-1293-3dc63e4bd78a}</Project>
+      <Name>Oculus.VR</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.AudioManager.Audio.Editor.csproj">
+      <Project>{35317792-8f9a-7464-d92c-3888d4691df5}</Project>
+      <Name>Oculus.AudioManager.Audio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Spatializer.Editor.csproj">
+      <Project>{1484d3bc-bf24-c3a0-35f9-6aa3a7e8e068}</Project>
+      <Name>Oculus.Spatializer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Facebook.Wit.TTS.csproj">
+      <Project>{e5cd027a-5a3d-aa1f-ac92-6c7749d8964f}</Project>
+      <Name>Facebook.Wit.TTS</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Platform.Editor.csproj">
+      <Project>{1c6a87ad-c57b-e657-212b-46c5341ee10b}</Project>
+      <Name>Oculus.Platform.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Facebook.Wit.TTS.Editor.csproj">
+      <Project>{632f7d09-4327-b0c4-a157-d6af183d7f97}</Project>
+      <Name>Facebook.Wit.TTS.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.Samples.csproj">
       <Project>{3fd94ac9-6051-2ccb-92ae-9f2f2e1d3964}</Project>
       <Name>Oculus.Interaction.Samples</Name>
@@ -1002,45 +1070,9 @@
       <Project>{b721f47a-dbc3-9b5f-2383-8a859ea241f3}</Project>
       <Name>Oculus.Interaction.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="AssistantCoreSDKEditor.csproj">
-      <Project>{916323cf-4c0d-05f4-82c6-2a3e9bad74c6}</Project>
-      <Name>AssistantCoreSDKEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.Voice.Demo.csproj">
-      <Project>{b8e64a87-faba-8d0a-70b9-480221230326}</Project>
-      <Name>Oculus.Voice.Demo</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.AudioManager.csproj">
-      <Project>{d247f38b-e87f-8621-bd19-103e1997862e}</Project>
-      <Name>Oculus.AudioManager</Name>
-    </ProjectReference>
     <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
       <Project>{5180b87d-ebf4-a5c4-5082-5cceb0d8e125}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.Interaction.csproj">
-      <Project>{84746019-346b-15cb-29bb-d91a091ddad3}</Project>
-      <Name>Oculus.Interaction</Name>
-    </ProjectReference>
-    <ProjectReference Include="AssistantCoreSDKRuntime.csproj">
-      <Project>{2cf374a9-6327-00a1-b0cd-34e31bb49956}</Project>
-      <Name>AssistantCoreSDKRuntime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Facebook.Wit.Conduit.csproj">
-      <Project>{b4ffbc61-0338-70dc-202b-471f82d8f87e}</Project>
-      <Name>Facebook.Wit.Conduit</Name>
-    </ProjectReference>
-    <ProjectReference Include="LitJson.csproj">
-      <Project>{9d45d8ef-e0c1-4cb2-f285-2d69f01545ed}</Project>
-      <Name>LitJson</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.AudioManager.Utils.Editor.csproj">
-      <Project>{cc0abc36-78e8-ad97-2443-61bb6a07b6f0}</Project>
-      <Name>Oculus.AudioManager.Utils.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Facebook.WitAI.csproj">
-      <Project>{6037afdf-e768-d344-676e-018306ed3d33}</Project>
-      <Name>Facebook.WitAI</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Spatializer.csproj">
       <Project>{aad1e2ef-cc5b-b0b9-b316-837fce2f2175}</Project>
@@ -1054,10 +1086,6 @@
       <Project>{7662b16f-d5bf-981c-9f81-ccdb2e4b4a48}</Project>
       <Name>VoiceSDK.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Facebook.Wit.Dictation.csproj">
-      <Project>{828cd408-66fd-b816-b052-ef0ccc0129a1}</Project>
-      <Name>Facebook.Wit.Dictation</Name>
-    </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.InterfaceSupport.csproj">
       <Project>{9c94e9bc-6d92-67af-990b-a0069f06dee9}</Project>
       <Name>Oculus.Interaction.InterfaceSupport</Name>
@@ -1065,18 +1093,6 @@
     <ProjectReference Include="Facebook.Wit.Editor.csproj">
       <Project>{0c181389-4b9b-67c6-674f-482cdc13a1ef}</Project>
       <Name>Facebook.Wit.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.Platform.csproj">
-      <Project>{effeff2c-b79e-3e21-1b48-cbceaa30e528}</Project>
-      <Name>Oculus.Platform</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{3774fb66-ba6d-ee39-1293-3dc63e4bd78a}</Project>
-      <Name>Oculus.VR</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.AudioManager.Audio.Editor.csproj">
-      <Project>{35317792-8f9a-7464-d92c-3888d4691df5}</Project>
-      <Name>Oculus.AudioManager.Audio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="VoiceSDK.Dictation.Editor.csproj">
       <Project>{17c915d6-d236-5044-b259-a6b595f7cf8d}</Project>
@@ -1090,10 +1106,6 @@
       <Project>{16c341e3-b681-e6c7-bdea-0d6013edbb98}</Project>
       <Name>Oculus.LipSync.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Oculus.Spatializer.Editor.csproj">
-      <Project>{1484d3bc-bf24-c3a0-35f9-6aa3a7e8e068}</Project>
-      <Name>Oculus.Spatializer.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Facebook.Wit.TTS.Samples.csproj">
       <Project>{12de89a4-6af5-4829-8269-4e758f66cdb5}</Project>
       <Name>Facebook.Wit.TTS.Samples</Name>
@@ -1105,18 +1117,6 @@
     <ProjectReference Include="VoiceSDK.Runtime.csproj">
       <Project>{ba9e5f03-237a-731e-28bf-ce493413698d}</Project>
       <Name>VoiceSDK.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Facebook.Wit.TTS.csproj">
-      <Project>{e5cd027a-5a3d-aa1f-ac92-6c7749d8964f}</Project>
-      <Name>Facebook.Wit.TTS</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.Platform.Editor.csproj">
-      <Project>{1c6a87ad-c57b-e657-212b-46c5341ee10b}</Project>
-      <Name>Oculus.Platform.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Facebook.Wit.TTS.Editor.csproj">
-      <Project>{632f7d09-4327-b0c4-a157-d6af183d7f97}</Project>
-      <Name>Facebook.Wit.TTS.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
