@@ -71,7 +71,6 @@
     <Compile Include="Assets\Unknown\Oculus\SampleFramework\Core\Video\Plugins\Android\NativeVideoPlayer.cs" />
     <Compile Include="Assets\Unknown\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportAimVisualLaser.cs" />
     <Compile Include="Assets\Unknown\Oculus\Voice\Lib\Wit.ai\AssemblyInfo.cs" />
-    <Compile Include="Assets\Script\saveColor.cs" />
     <Compile Include="Assets\Unknown\Oculus\SampleFramework\Core\Video\Scripts\MoviePlayerSample.cs" />
     <Compile Include="Assets\Unknown\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportDestination.cs" />
     <Compile Include="Assets\Unknown\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainButtonVisualController.cs" />
@@ -123,7 +122,6 @@
     <Compile Include="Assets\Unknown\Oculus\SampleFramework\Usage\SceneManager\Scripts\Spawnable.cs" />
     <Compile Include="Assets\Unknown\Oculus\SampleFramework\Core\Video\Scripts\ButtonDownListener.cs" />
     <Compile Include="Assets\Unknown\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportAimHandlerLaser.cs" />
-    <Compile Include="Assets\Script\PowderController.cs" />
     <Compile Include="Assets\Unknown\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughBrush.cs" />
     <Compile Include="Assets\Unknown\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughController.cs" />
     <Compile Include="Assets\Script\BlurObject.cs" />
@@ -142,7 +140,6 @@
     <Compile Include="Assets\Unknown\Oculus\SampleFramework\Core\HandsInteraction\Scripts\ButtonTriggerZone.cs" />
     <Compile Include="Assets\Unknown\Oculus\SampleFramework\Usage\Firebase\AnalyticsUI.cs" />
     <Compile Include="Assets\Script\ColorMix.cs" />
-    <Compile Include="Assets\Script\DeletePowder.cs" />
     <Compile Include="Assets\Unknown\Oculus\SampleFramework\Core\HandsInteraction\Scripts\BoneCapsuleTriggerLogic.cs" />
     <Compile Include="Assets\Unknown\Oculus\SampleFramework\Core\DistanceGrab\Scripts\ColorGrabbable.cs" />
     <Compile Include="Assets\Unknown\Oculus\SampleFramework\Core\Video\Scripts\MediaPlayerImage.cs" />
@@ -191,7 +188,7 @@
     <Compile Include="Assets\Unknown\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorUIManager.cs" />
     <Compile Include="Assets\Unknown\Oculus\SampleFramework\Usage\Passthrough\Scripts\SelectivePassthroughExperience.cs" />
     <Compile Include="Assets\Unknown\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrackSegment.cs" />
-    <Compile Include="Assets\Script\sikenkanController.cs" />
+    <Compile Include="Assets\Script\saveColor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Unknown\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
