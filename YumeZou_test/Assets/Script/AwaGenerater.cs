@@ -16,7 +16,7 @@ public class AwaGenerater: MonoBehaviour
     void Update()
     {
         // 一定時間ごとにプレハブを生成
-        if (Time.frameCount % 20 == 0)
+        if (Time.frameCount % 5 == 0)
         {
             // 生成位置
             Vector3 pos = clonePos;
