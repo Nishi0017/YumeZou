@@ -32,18 +32,6 @@ public class atari : MonoBehaviour
         
     }
 
-    IEnumerator StartAnime() 
-    {
-    kemuri.gameObject.SetActive(true);
-    Debug.Log("発生");
-    //2秒待つ
-    yield return new WaitForSeconds(2);
- 
-    kemuri.gameObject.SetActive(false);
-    Debug.Log("消す");
-    //再開してから実行したい処理を書く
-    //例：敵オブジェクトを破壊
-    }
 
     private void OnTriggerStay(Collider other)
     {
@@ -61,7 +49,8 @@ public class atari : MonoBehaviour
         {
 
             Destroy(other.gameObject);
-            StartCoroutine("StartAnime");
+            kemuri.gameObject.SetActive(true);
+            
             //isOn = true;
 
 
@@ -69,8 +58,6 @@ public class atari : MonoBehaviour
             {
                 int I = i + 1;
                 awaGene[i] = waterObj.transform.Find("AwaGene" + I);
-                Debug.Log(awaGene[i]);
-                Debug.Log("AwaGene" + I);
                 if (awaGene[i] != null)
                 {
                     awaGene[i].gameObject.SetActive(true);
@@ -84,7 +71,5 @@ public class atari : MonoBehaviour
             Destroy(this.gameObject);
         }
 
-    }
-
-    
+    }    
 }

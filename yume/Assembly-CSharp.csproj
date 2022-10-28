@@ -171,6 +171,7 @@
      <Compile Include="Assets\Unknown\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorUIManager.cs" />
      <Compile Include="Assets\Unknown\Oculus\SampleFramework\Usage\Passthrough\Scripts\SelectivePassthroughExperience.cs" />
      <Compile Include="Assets\Unknown\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrackSegment.cs" />
+     <Compile Include="Assets\Script\kemuriController.cs" />
      <None Include="Assets\Unknown\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
      <None Include="Assets\Unknown\Oculus\SampleFramework\Usage\SceneManager\Shaders\Hidden.shader" />
      <None Include="Assets\Unknown\Oculus\SampleFramework\Usage\SceneManager\Shaders\Wall.shader" />

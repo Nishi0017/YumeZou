@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class AwaGenerater : MonoBehaviour
 {
+    [Header("煙")] public kemuriController kemuriController;
     [Header("クローン数")] public int n = 30;
-
-    // プレハブ格納用
     [Header("泡のプレハブ")]public GameObject awaPrefab;
 
     private GameObject Obj;
@@ -31,7 +30,9 @@ public class AwaGenerater : MonoBehaviour
             Obj = Instantiate(awaPrefab, pos, Quaternion.identity);
             Obj.transform.parent = parentFloor.transform;
             n -= 1;
-
+        }else if(n == 0)
+        {
+            kemuriController.StopKemuri();
         }
     }
 }
