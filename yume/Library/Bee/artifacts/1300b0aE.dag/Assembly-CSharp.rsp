@@ -393,6 +393,7 @@
 "Assets/Script/ColerController.cs"
 "Assets/Script/ColorMix.cs"
 "Assets/Script/detekuru.cs"
+"Assets/Script/Grab.cs"
 "Assets/Script/kieru.cs"
 "Assets/Script/saveColor.cs"
 "Assets/Unknown/com/heparo/terrain/toolkit/scripts/TerrainToolkit.cs"
