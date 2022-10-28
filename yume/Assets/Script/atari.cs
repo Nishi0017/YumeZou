@@ -5,19 +5,16 @@ using UnityEngine;
 
 public class atari : MonoBehaviour
 {
-    //[HideInInspector]public bool isOn;
-    //[HideInInspector]public bool isOn_color; 
+    public GameObject kemuri;
+
     private Color objColor = Color.white;
-    //public ColerController colorController;
     
     private GameObject waterObj;
     private saveColor saveColorScript;
-    //private ZibraLiquidMaterialParameters ZibraLiquidMaterialParameters;
     
     private Transform[] awaGene;
     private int ChildNum= 0;
 
-    // Start is called before the first frame update
     private void Start()
     {
         objColor = new Color(161.0f / 255, 161.0f / 255, 161.0f / 255, 1.0f);
@@ -35,7 +32,19 @@ public class atari : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    IEnumerator StartAnime() 
+    {
+    kemuri.gameObject.SetActive(true);
+    Debug.Log("発生");
+    //2秒待つ
+    yield return new WaitForSeconds(2);
+ 
+    kemuri.gameObject.SetActive(false);
+    Debug.Log("消す");
+    //再開してから実行したい処理を書く
+    //例：敵オブジェクトを破壊
+    }
+
     private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "Color")
@@ -50,7 +59,9 @@ public class atari : MonoBehaviour
         }
         else if (other.gameObject.tag == "KL")
         {
+
             Destroy(other.gameObject);
+            StartCoroutine("StartAnime");
             //isOn = true;
 
 

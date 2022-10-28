@@ -8,6 +8,7 @@ TagManager:
   - RoomLight
   - Color
   - KL
+  - OVR
   layers:
   - Default
   - TransparentFX
