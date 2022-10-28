@@ -9,8 +9,18 @@ public class kemuriController : MonoBehaviour
     public void StopKemuri()
     {
         N--;
-        if(N == 0)
+        if (N == 0)
+        {
+            /*ParticleSystem.MainModule par = GetComponent<ParticleSystem>().main;
+            while(par.startColor.a != 0)
+            {
+                if(Time.frameCount % 60 == 0)
+                {
+                    par.startColor = 
+                }
+            }*/
             this.gameObject.SetActive(false);
+        }
     }
     
 }
