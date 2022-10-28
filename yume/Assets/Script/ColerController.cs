@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ColerController : MonoBehaviour
 {
-    public ZibraLiquidMaterialParameters ZibraLiquidMaterialParameters;
+    //public ZibraLiquidMaterialParameters ZibraLiquidMaterialParameters;
     public atari atari;
     public bool once = false;
     void Start()
@@ -16,9 +16,9 @@ public class ColerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!once && atari.isOn_color)
+        if(!once)
         {
-            ZibraLiquidMaterialParameters.Color = atari.objColor;
+            //ZibraLiquidMaterialParameters.Color = atari.objColor;
             once = true;
         }
     }

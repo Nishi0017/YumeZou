@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class AwaController : MonoBehaviour
 {
-    private GameObject atariObj;
-    private atari atariScri;
+    private GameObject saveColor;
+    private saveColor saveColorScri;
 
     private Rigidbody rb;
 
     void Start()
     {
-        atariObj = transform.parent.gameObject;
-        atariScri = atariObj.GetComponent<atari>();
-        GetComponent<Renderer>().material.color = atariScri.objColor;
+        saveColor = transform.parent.gameObject;
+        saveColorScri = saveColor.GetComponent<saveColor>();
+        GetComponent<Renderer>().material.color = saveColorScri.colorSave;
 
         gameObject.transform.parent = null;
 

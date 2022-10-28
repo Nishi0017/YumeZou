@@ -5,13 +5,15 @@ using UnityEngine;
 
 public class atari : MonoBehaviour
 {
-    [HideInInspector]public bool isOn;
-    [HideInInspector]public bool isOn_color; 
-    public Color objColor;
-    public ColerController colorController;
+    //[HideInInspector]public bool isOn;
+    //[HideInInspector]public bool isOn_color; 
+    private Color objColor = Color.white;
+    //public ColerController colorController;
     
-    private Transform waterObj;
-    private ZibraLiquidMaterialParameters ZibraLiquidMaterialParameters;
+    private GameObject waterObj;
+    private saveColor saveColorScript;
+    //private ZibraLiquidMaterialParameters ZibraLiquidMaterialParameters;
+    
     private Transform[] awaGene;
     private int ChildNum= 0;
 
@@ -19,40 +21,46 @@ public class atari : MonoBehaviour
     private void Start()
     {
         objColor = new Color(161.0f / 255, 161.0f / 255, 161.0f / 255, 1.0f);
-        isOn_color = false;
-        isOn = false ;
-        ChildNum = this.transform.childCount;
-        waterObj = this.transform.Find("Zibra Liquid 2");
-        ZibraLiquidMaterialParameters = waterObj.GetComponent<ZibraLiquidMaterialParameters>();
+        //isOn_color = false;
+        //isOn = false ;
+        
+        waterObj = transform.parent.gameObject;
+        ChildNum = waterObj.transform.childCount;
         Debug.Log(ChildNum);
+        saveColorScript = waterObj.GetComponent<saveColor>();
+
+        //ZibraLiquidMaterialParameters = waterObj.GetComponent<ZibraLiquidMaterialParameters>();
+        
         awaGene = new Transform[ChildNum];
         
     }
 
     // Update is called once per frame
-    private void OnCollisionEnter(Collision Collision)
+    private void OnTriggerStay(Collider other)
     {
-
-        if (Collision.gameObject.tag == "Color")
+        if (other.gameObject.tag == "Color")
         {
-            isOn_color = true ;
-            GameObject obj = Collision.gameObject;
+            //isOn_color = true;
+            GameObject obj = other.gameObject;
             objColor = obj.GetComponent<Renderer>().material.color;
-            ZibraLiquidMaterialParameters.Color = objColor; 
+            //ZibraLiquidMaterialParameters.Color = objColor; 
+            GetComponent<Renderer>().material.color = objColor;
+            saveColorScript.SaveColor(objColor);
             Destroy(obj);
         }
-        else if(Collision.gameObject.tag == "KL")
+        else if (other.gameObject.tag == "KL")
         {
-            isOn = true;
+            Destroy(other.gameObject);
+            //isOn = true;
 
 
             for (int i = 0; i < ChildNum; i++)
             {
                 int I = i + 1;
-                awaGene[i] = this.transform.Find("AwaGene" + I);
+                awaGene[i] = waterObj.transform.Find("AwaGene" + I);
                 Debug.Log(awaGene[i]);
                 Debug.Log("AwaGene" + I);
-                if (awaGene[i] != null) 
+                if (awaGene[i] != null)
                 {
                     awaGene[i].gameObject.SetActive(true);
                 }
@@ -60,9 +68,9 @@ public class atari : MonoBehaviour
                 {
                     break;
                 }
-            
+
             }
-            Destroy(waterObj.gameObject);
+            Destroy(this.gameObject);
         }
 
     }

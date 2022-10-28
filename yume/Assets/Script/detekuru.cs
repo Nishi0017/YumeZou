@@ -17,7 +17,8 @@ public class detekuru: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Trigger.isOn == true && produceFlag == false)
+        //if(Trigger.isOn == true && produceFlag == false)
+        if(produceFlag == false)
         {
             Instantiate(cloud, new Vector3(0.0f,2.0f,0.0f),Quaternion.identity) ;
             produceFlag = true;

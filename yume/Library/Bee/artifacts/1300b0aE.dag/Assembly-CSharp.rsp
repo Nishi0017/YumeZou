@@ -393,6 +393,7 @@
 "Assets/Script/ColorMix.cs"
 "Assets/Script/detekuru.cs"
 "Assets/Script/kieru.cs"
+"Assets/Script/saveColor.cs"
 "Assets/Unknown/com/heparo/terrain/toolkit/scripts/TerrainToolkit.cs"
 "Assets/Unknown/Oculus/SampleFramework/Core/CustomHands/Scripts/Hand.cs"
 "Assets/Unknown/Oculus/SampleFramework/Core/CustomHands/Scripts/HandPose.cs"
