@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 105
+  controlID: 28
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 23
+  controlID: 81
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -378,8 +378,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -99.20001, y: -26}
+      snapOffset: {x: -101, y: -1.2000122}
+      snapOffsetDelta: {x: 0, y: -24.799988}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -400,7 +400,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -422,7 +422,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 24.8}
+      snapOffset: {x: 0, y: 25.2}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -561,7 +561,7 @@ MonoBehaviour:
       index: 10
       layout: 4
   m_WindowGUID: 01c32e619d7a5c74583f4d0b354f0e8f
-  m_Gizmos: 1
+  m_Gizmos: 0
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -570,9 +570,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -10.375992, y: 106.28699, z: -1.1888065}
+    m_Target: {x: -6.978328, y: 105.09523, z: -2.0868707}
     speed: 2
-    m_Value: {x: -10.375992, y: 106.28699, z: -1.1888065}
+    m_Value: {x: -6.978328, y: 105.09523, z: -2.0868707}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -619,13 +619,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.18057437, y: 0.21206135, z: -0.039902505, w: -0.9596057}
+    m_Target: {x: -0.23038693, y: 0.014588479, z: -0.0034535297, w: -0.97299105}
     speed: 2
-    m_Value: {x: -0.1806329, y: 0.21062039, z: -0.03963135, w: -0.9599168}
+    m_Value: {x: -0.17901991, y: 0.010322567, z: -0.0018776249, w: -0.9837895}
   m_Size:
-    m_Target: 7.2322493
+    m_Target: 2.0647802
     speed: 2
-    m_Value: 6.9208126
+    m_Value: 2.1620736
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -681,10 +681,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 23.600006}
-      m_SelectedIDs: 349effff
+      scrollPos: {x: 0, y: 583.6}
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 30fbffff2e5e0000
+      m_ExpandedIDs: 14faffff16faffff3afaffff44faffff54faffff30fbffffc05c00001e5d00002a5e00002e5e00006c5e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -750,22 +750,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script
+    - Assets/Prefab
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 54
   m_LastFolders:
-  - Assets/Script
+  - Assets/Prefab
   m_LastFoldersGridSize: 54
-  m_LastProjectPath: C:\Users\rokku\Desktop\UnityBackup\yume
+  m_LastProjectPath: C:\Users\rokku\Documents\GitHub\YumeZou\yume
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5c620000
-    m_LastClickedID: 25180
-    m_ExpandedIDs: 00000000a6610000a8610000
+    m_SelectedIDs: 52620000
+    m_LastClickedID: 25170
+    m_ExpandedIDs: 00000000a6610000a8610000626200008a6200008c6200008e620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
