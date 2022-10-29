@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class AwaController : MonoBehaviour
 {
+    public GameObject obj;
+    public Color objColor;
+
+    private Color myColor;
     private GameObject saveColor;
     private saveColor saveColorScri;
-
     private Rigidbody rb;
 
     void Start()
@@ -40,9 +43,25 @@ public class AwaController : MonoBehaviour
 
 
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        string tag = collision.gameObject.tag;
+        if (tag == "Color" || tag == "Awa")
+        {
+            myColor = this.gameObject.GetComponent<Renderer>().material.color;
+            obj = collision.gameObject;
+            objColor = obj.GetComponent<Renderer>().material.color;
+            if(myColor != objColor)
+                GetComponent<Renderer>().material.color = (myColor + objColor) / 2;
+            if(tag == "Color")
+                Destroy(collision.gameObject);
+        }
+    }
+
     IEnumerator ScaleUp()
     {
-        for (float i = 15; i < 50; i += 1.0f)
+        for (float i = 15; i < 30; i += 1.0f)
         {
             this.transform.localScale = new Vector3(i, i, i);
             yield return new WaitForSeconds(0.1f);

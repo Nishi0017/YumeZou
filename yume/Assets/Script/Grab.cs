@@ -21,6 +21,7 @@ public class Grab : MonoBehaviour
         Quaternion indexTipRotate = MYRightSkelton.Bones[(int)OVRSkeleton.BoneId.Hand_IndexTip].Transform.rotation;
         IndexSphere.transform.position = indexTipPos;
         IndexSphere.transform.rotation = indexTipRotate;
+        Debug.Log((int)OVRSkeleton.BoneId.Hand_IndexTip);
     }
 
     void OnTriggerStay(Collider other)

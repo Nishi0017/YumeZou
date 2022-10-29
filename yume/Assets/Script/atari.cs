@@ -23,7 +23,6 @@ public class atari : MonoBehaviour
         
         waterObj = transform.parent.gameObject;
         ChildNum = waterObj.transform.childCount;
-        Debug.Log(ChildNum);
         saveColorScript = waterObj.GetComponent<saveColor>();
 
         //ZibraLiquidMaterialParameters = waterObj.GetComponent<ZibraLiquidMaterialParameters>();
