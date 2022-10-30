@@ -1,9 +1,12 @@
+using Oculus.Interaction;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class AwaController : MonoBehaviour
 {
+    public float mini = -20;
+    public float max = 10;
     public GameObject obj;
     public Color objColor;
 
@@ -16,7 +19,12 @@ public class AwaController : MonoBehaviour
     {
         saveColor = transform.parent.gameObject;
         saveColorScri = saveColor.GetComponent<saveColor>();
-        GetComponent<Renderer>().material.color = saveColorScri.colorSave;
+
+        float R = saveColorScri.colorSave.r + Random.Range(mini, max) / 255;
+        float G = saveColorScri.colorSave.g + Random.Range(mini, max) / 255;
+        float B = saveColorScri.colorSave.b + Random.Range(mini, max) / 255;
+        float A = saveColorScri.colorSave.a;
+        GetComponent<Renderer>().material.color = new Vector4(R, G, B, A);
 
         gameObject.transform.parent = null;
 
@@ -44,18 +52,21 @@ public class AwaController : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter(Collision collision)
+
+    private void OnTriggerEnter(Collider other)
     {
-        string tag = collision.gameObject.tag;
+        string tag = other.gameObject.tag;
         if (tag == "Color" || tag == "Awa")
         {
             myColor = this.gameObject.GetComponent<Renderer>().material.color;
-            obj = collision.gameObject;
+            obj = other.gameObject;
             objColor = obj.GetComponent<Renderer>().material.color;
-            if(myColor != objColor)
+            if (myColor != objColor)
+            {
                 GetComponent<Renderer>().material.color = (myColor + objColor) / 2;
+            }
             if(tag == "Color")
-                Destroy(collision.gameObject);
+                Destroy(other.gameObject);
         }
     }
 

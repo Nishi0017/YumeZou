@@ -386,6 +386,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/ZibraAILiquid.Samples.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/ZibraAILiquid.Settings.Editor.ref.dll"
 "Assets/code/ykotei.cs"
+"Assets/Elephant_Jahaziel/Model/zousan.cs"
 "Assets/Script/atari.cs"
 "Assets/Script/AwaController.cs"
 "Assets/Script/AwaGenerater.cs"
