@@ -15,18 +15,14 @@ public class atari : MonoBehaviour
     private Transform[] awaGene;
     private int ChildNum= 0;
 
+    private bool colorChange = false;
+
     private void Start()
     {
         objColor = new Color(161.0f / 255, 161.0f / 255, 161.0f / 255, 1.0f);
-        //isOn_color = false;
-        //isOn = false ;
-        
         waterObj = transform.parent.gameObject;
         ChildNum = waterObj.transform.childCount;
         saveColorScript = waterObj.GetComponent<saveColor>();
-
-        //ZibraLiquidMaterialParameters = waterObj.GetComponent<ZibraLiquidMaterialParameters>();
-        
         awaGene = new Transform[ChildNum];
         
     }
@@ -34,25 +30,23 @@ public class atari : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+        GameObject obj = other.gameObject;
         if (other.gameObject.tag == "Color")
         {
-            //isOn_color = true;
-            GameObject obj = other.gameObject;
             objColor = obj.GetComponent<Renderer>().material.color;
-            //ZibraLiquidMaterialParameters.Color = objColor; 
             GetComponent<Renderer>().material.color = objColor;
-            saveColorScript.SaveColor(objColor);
+            colorChange = true;
+            
+        }
+        if (other.gamObject.tag == "Bin" && !colorChange) //ƒrƒ“‚Ìparent‚Ìtag‚ð"Bin"‚É
+        {
             Destroy(obj);
+            colorChange = true;
         }
         else if (other.gameObject.tag == "KL")
         {
-
-            Destroy(other.gameObject);
+            Destroy(obj);
             kemuri.gameObject.SetActive(true);
-            
-            //isOn = true;
-
-
             for (int i = 0; i < ChildNum; i++)
             {
                 int I = i + 1;
@@ -65,10 +59,8 @@ public class atari : MonoBehaviour
                 {
                     break;
                 }
-
             }
             Destroy(this.gameObject);
         }
-
     }    
 }
