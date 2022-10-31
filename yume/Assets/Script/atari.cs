@@ -33,6 +33,7 @@ public class atari : MonoBehaviour
         {
             objColor = obj.GetComponent<Renderer>().material.color;
             GetComponent<Renderer>().material.color = objColor;
+            saveColorScript.SaveColor(objColor);
             Destroy(obj);
         }
         else if (other.gameObject.tag == "KL")
