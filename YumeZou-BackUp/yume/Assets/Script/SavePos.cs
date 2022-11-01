@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SavePos : MonoBehaviour
 {
-    public Vector3 savaPos;
+    public Vector3 savePos;
 
     void Start()
     {
