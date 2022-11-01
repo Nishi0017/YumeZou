@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ja' Physical Memory: 16205 MB
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ja' Physical Memory: 16047 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+C:\Unity\2021.3.11f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/kumax/Documents/GitHub/YumeZou/YumeZou-BackUp/yume
+C:/Users/tomoaki/Documents/GitHub/YumeZou/YumeZou-BackUp/yume
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51147
-Successfully changed project path to: C:/Users/kumax/Documents/GitHub/YumeZou/YumeZou-BackUp/yume
-C:/Users/kumax/Documents/GitHub/YumeZou/YumeZou-BackUp/yume
+49371
+Successfully changed project path to: C:/Users/tomoaki/Documents/GitHub/YumeZou/YumeZou-BackUp/yume
+C:/Users/tomoaki/Documents/GitHub/YumeZou/YumeZou-BackUp/yume
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,69 +47,66 @@ C:/Users/kumax/Documents/GitHub/YumeZou/YumeZou-BackUp/yume
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 99.41 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 1.04 ms.
+Refreshing native plugins compatible for Editor in 85.43 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 1.88 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/kumax/Documents/GitHub/YumeZou/YumeZou-BackUp/yume/Assets
+[Subsystems] Discovering subsystems at path C:/Unity/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tomoaki/Documents/GitHub/YumeZou/YumeZou-BackUp/yume/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
-    Vendor:   NVIDIA
-    VRAM:     6023 MB
-    Driver:   30.0.14.9717
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8023 MB
+    Driver:   30.0.100.9864
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Mono path[0] = 'C:/Unity/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Unity/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012512 seconds.
+Register platform support module: C:/Unity/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002716 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 116.89 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 0.15 ms.
+Refreshing native plugins compatible for Editor in 71.37 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.894 seconds
+- Completed reload, in  0.530 seconds
 Domain Reload Profiling:
-	ReloadAssembly (895ms)
-		BeginReloadAssembly (102ms)
+	ReloadAssembly (530ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (635ms)
-			LoadAssemblies (99ms)
+		EndReloadAssembly (371ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (151ms)
+			SetupTypeCache (85ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (378ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (217ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (79ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (117ms)
+				RefreshPlugins (72ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (122ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010009 seconds.
+Registered in 0.004525 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 0.24 ms.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
 Package Manager log level set to [2]
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -117,438 +114,499 @@ Package Manager log level set to [2]
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.76.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.422 seconds
+- Completed reload, in  0.871 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1423ms)
-		BeginReloadAssembly (253ms)
+	ReloadAssembly (872ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (125ms)
-		EndReloadAssembly (1007ms)
-			LoadAssemblies (114ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (682ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (287ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (91ms)
-			SetupLoadedEditorAssemblies (462ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (294ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (268ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.22 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 0.17 ms.
-Unloading 3322 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 66 unused Assets / (435.1 KB). Loaded Objects now: 3779.
-Memory consumption went from 167.7 MB to 167.3 MB.
-Total: 5.060400 ms (FindLiveObjects: 0.399300 ms CreateObjectMapping: 0.317900 ms MarkObjects: 4.057000 ms  DeleteObjects: 0.285000 ms)
+Refreshing native plugins compatible for Editor in 0.99 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 3324 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (436.4 KB). Loaded Objects now: 3779.
+Memory consumption went from 167.8 MB to 167.3 MB.
+Total: 4.110500 ms (FindLiveObjects: 0.291300 ms CreateObjectMapping: 0.292900 ms MarkObjects: 3.211300 ms  DeleteObjects: 0.312300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 1032059.506237 seconds.
-  path: Assets/Prefab/OVRPlayerController (1).prefab
-  artifactKey: Guid(c76018a5aacf6b4499d113aa3044c789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/OVRPlayerController (1).prefab using Guid(c76018a5aacf6b4499d113aa3044c789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0212ffebbd75efe7a0e8ae032f5f6c') in 0.159765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.506916 seconds.
-  path: Assets/Prefab/OVRPlayerController (1) 1.prefab
-  artifactKey: Guid(1d96721b78b10714aac0b556b273e7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/OVRPlayerController (1) 1.prefab using Guid(1d96721b78b10714aac0b556b273e7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3361b3e1c59a1f3f7e7b12ff35029fb7') in 0.023624 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 112.777298 seconds.
-  path: Assets/Prefab/OVRPlayerController (1) 2.prefab
-  artifactKey: Guid(1accdb208f649ad44900fe1014028914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/OVRPlayerController (1) 2.prefab using Guid(1accdb208f649ad44900fe1014028914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4386550679ac9429e78c6b29c48ec980') in 0.022442 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006470 seconds.
+Registered in 0.003800 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 0.22 ms.
+Refreshing native plugins compatible for Editor in 1.55 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.33 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.452 seconds
+- Completed reload, in  1.281 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1452ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (1282ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1209ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1051ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (349ms)
-			ReleaseScriptCaches (2ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (3ms)
 			RebuildScriptCaches (110ms)
-			SetupLoadedEditorAssemblies (550ms)
+			SetupLoadedEditorAssemblies (475ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (126ms)
-				ProcessInitializeOnLoadAttributes (314ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 7.86 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 3196 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (403.7 KB). Loaded Objects now: 3792.
-Memory consumption went from 160.7 MB to 160.4 MB.
-Total: 3.318200 ms (FindLiveObjects: 0.247100 ms CreateObjectMapping: 0.182600 ms MarkObjects: 2.654800 ms  DeleteObjects: 0.232600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006662 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 0.19 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.125 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1125ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (902ms)
-			LoadAssemblies (90ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (223ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (435ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (243ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 11.05 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
-Unloading 3196 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (403.4 KB). Loaded Objects now: 3796.
-Memory consumption went from 160.8 MB to 160.4 MB.
-Total: 3.587300 ms (FindLiveObjects: 0.279700 ms CreateObjectMapping: 0.156200 ms MarkObjects: 2.863800 ms  DeleteObjects: 0.286600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006665 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 0.17 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.129 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1130ms)
-		BeginReloadAssembly (130ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (886ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (243ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (83ms)
-			SetupLoadedEditorAssemblies (399ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (217ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 7.86 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 10.25 ms, found 8 plugins.
 Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 3196 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (403.6 KB). Loaded Objects now: 3800.
-Memory consumption went from 160.8 MB to 160.4 MB.
-Total: 3.252500 ms (FindLiveObjects: 0.282800 ms CreateObjectMapping: 0.169100 ms MarkObjects: 2.560300 ms  DeleteObjects: 0.239000 ms)
+Unloading 3198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (404.6 KB). Loaded Objects now: 3783.
+Memory consumption went from 156.3 MB to 155.9 MB.
+Total: 4.436600 ms (FindLiveObjects: 0.290900 ms CreateObjectMapping: 0.132700 ms MarkObjects: 3.665000 ms  DeleteObjects: 0.345900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 1121.022241 seconds.
-  path: Assets/Unknown/com/heparo/terrain/toolkit/demonstration/materials/Demo_SkyBox_Material.mat
-  artifactKey: Guid(2b7fecfc9c9646e4f8255f0ad4681d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unknown/com/heparo/terrain/toolkit/demonstration/materials/Demo_SkyBox_Material.mat using Guid(2b7fecfc9c9646e4f8255f0ad4681d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a4033fcccbe7066a662d7196b4ffbe') in 0.402406 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.516600 seconds.
-  path: Assets/Oculus/Voice/Demo/Materials/Skybox.mat
-  artifactKey: Guid(fea35dc83d97e2b438e3baebaf6ead34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Voice/Demo/Materials/Skybox.mat using Guid(fea35dc83d97e2b438e3baebaf6ead34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1017bf199e51f75974d2038ee20bf555') in 0.035732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Down-Y.png
-  artifactKey: Guid(44ba68aec4ce947e182003f5806313cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Down-Y.png using Guid(44ba68aec4ce947e182003f5806313cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e16a0ba763a8bb7fc5d7b43ac2c5653') in 0.036177 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Back-Z.png
-  artifactKey: Guid(c3a31c33995374cb6a46e7a0fa5113cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Back-Z.png using Guid(c3a31c33995374cb6a46e7a0fa5113cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7df3dfb608e8e20fb705ffef2abf27') in 0.024474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01.mat
-  artifactKey: Guid(8314ffe855e0e45b0a2fdbbdfe2010ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01.mat using Guid(8314ffe855e0e45b0a2fdbbdfe2010ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7413ac06e78fcc205ecdf555619ae568') in 0.078214 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Front+Z.png
-  artifactKey: Guid(27a334ddd1e674f5f91d415e537d39f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Front+Z.png using Guid(27a334ddd1e674f5f91d415e537d39f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45589b4be31d3f78af414cb7fe593057') in 0.020640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Elephant_Jahaziel/Model/Materials/Skybox.mat
-  artifactKey: Guid(210570f30443f774f9001994a930d78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Elephant_Jahaziel/Model/Materials/Skybox.mat using Guid(210570f30443f774f9001994a930d78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683789a658bf0e6e3a92bf6f08e08dbf') in 0.013369 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Left+X.png
-  artifactKey: Guid(2d6e238331f1a403e881deb3adfc097a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Left+X.png using Guid(2d6e238331f1a403e881deb3adfc097a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072d57eeee3cb621f7e778fd270ab39e') in 0.021221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.860525 seconds.
-  path: Assets/Unknown/com/heparo/terrain/toolkit/demonstration/textures/Sunny2_front.tif
-  artifactKey: Guid(dceb190b37210134f9be1f303e908335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unknown/com/heparo/terrain/toolkit/demonstration/textures/Sunny2_front.tif using Guid(dceb190b37210134f9be1f303e908335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6c29ee60e068ab2deead35c91fd8d5') in 0.038583 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Unknown/com/heparo/terrain/toolkit/demonstration/textures/Sunny2_right.tif
-  artifactKey: Guid(f7b9e6ef55761314284044ad1c37b3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unknown/com/heparo/terrain/toolkit/demonstration/textures/Sunny2_right.tif using Guid(f7b9e6ef55761314284044ad1c37b3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6d6c9a18d8d1a19f303177f9a58da7') in 0.039098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Unknown/com/heparo/terrain/toolkit/demonstration/textures/Sunny2_left.tif
-  artifactKey: Guid(3e4fe63354d5fdc4891c04ecfa3c26a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unknown/com/heparo/terrain/toolkit/demonstration/textures/Sunny2_left.tif using Guid(3e4fe63354d5fdc4891c04ecfa3c26a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c0b23b5974a5ce8b19b51aa89cbda8') in 0.019534 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Unknown/com/heparo/terrain/toolkit/demonstration/textures/Sunny2_down.tif
-  artifactKey: Guid(a96c58dc4135b044eb89bfb769764999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unknown/com/heparo/terrain/toolkit/demonstration/textures/Sunny2_down.tif using Guid(a96c58dc4135b044eb89bfb769764999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd22a2eee4b6daaae6e7defd8a4d575') in 0.018981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 82.052951 seconds.
-  path: Assets/Script
-  artifactKey: Guid(fca0ea4ea5f0bc84ca0997b6d5620843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script using Guid(fca0ea4ea5f0bc84ca0997b6d5620843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53034718a98bdbbfac0bfd200dabd53f') in 0.002309 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.285789 seconds.
-  path: Assets/Script/ReturnPos.cs
-  artifactKey: Guid(a5f9ab41e56e078409e8dbb4d597a0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/ReturnPos.cs using Guid(a5f9ab41e56e078409e8dbb4d597a0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f238217333a009127fe471070bccc81') in 0.013327 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007377 seconds.
+Registered in 0.003958 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 0.19 ms.
+Refreshing native plugins compatible for Editor in 2.23 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.36 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.297 seconds
+- Completed reload, in  1.288 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1298ms)
-		BeginReloadAssembly (149ms)
+	ReloadAssembly (1288ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (1003ms)
-			LoadAssemblies (126ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1064ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (90ms)
-			SetupLoadedEditorAssemblies (457ms)
+			SetupTypeCache (399ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (401ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (246ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 9.15 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 0.17 ms.
-Unloading 3197 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (404.8 KB). Loaded Objects now: 3839.
-Memory consumption went from 161.0 MB to 160.6 MB.
-Total: 3.423900 ms (FindLiveObjects: 0.289300 ms CreateObjectMapping: 0.178000 ms MarkObjects: 2.712000 ms  DeleteObjects: 0.243600 ms)
+Refreshing native plugins compatible for Editor in 5.66 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 3198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (412.9 KB). Loaded Objects now: 3787.
+Memory consumption went from 156.3 MB to 155.9 MB.
+Total: 3.488000 ms (FindLiveObjects: 0.276300 ms CreateObjectMapping: 0.117500 ms MarkObjects: 2.853900 ms  DeleteObjects: 0.239100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 111.425278 seconds.
-  path: Assets/Script/SavePos.cs
-  artifactKey: Guid(7ff71ec5017a3a64ea635e4dd8b2c50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/SavePos.cs using Guid(7ff71ec5017a3a64ea635e4dd8b2c50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8dc4145ac8b6e832fd9b6d8fcd3934c') in 0.018885 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007732 seconds.
+Registered in 0.006334 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 0.17 ms.
+Refreshing native plugins compatible for Editor in 1.11 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.413 seconds
+- Completed reload, in  1.131 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1414ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (1132ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (1161ms)
-			LoadAssemblies (102ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (906ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (305ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (95ms)
-			SetupLoadedEditorAssemblies (577ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (423ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (157ms)
-				ProcessInitializeOnLoadAttributes (338ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (260ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.82 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 5.29 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
 Unloading 3198 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (404.9 KB). Loaded Objects now: 3844.
-Memory consumption went from 161.1 MB to 160.7 MB.
-Total: 3.613100 ms (FindLiveObjects: 0.346800 ms CreateObjectMapping: 0.314100 ms MarkObjects: 2.708200 ms  DeleteObjects: 0.242700 ms)
+Unloading 55 unused Assets / (404.9 KB). Loaded Objects now: 3791.
+Memory consumption went from 156.3 MB to 155.9 MB.
+Total: 3.702500 ms (FindLiveObjects: 0.468000 ms CreateObjectMapping: 0.198400 ms MarkObjects: 2.680600 ms  DeleteObjects: 0.353000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005313 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.235 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1236ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1028ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (124ms)
+			SetupLoadedEditorAssemblies (462ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.70 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+Unloading 3198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (412.4 KB). Loaded Objects now: 3795.
+Memory consumption went from 156.3 MB to 155.9 MB.
+Total: 4.381300 ms (FindLiveObjects: 0.320000 ms CreateObjectMapping: 0.250400 ms MarkObjects: 3.384400 ms  DeleteObjects: 0.423600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004996 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.40 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.23 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.258 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1259ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1046ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (124ms)
+			SetupLoadedEditorAssemblies (464ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (284ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 4.74 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Unloading 3198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (412.9 KB). Loaded Objects now: 3799.
+Memory consumption went from 156.4 MB to 156.0 MB.
+Total: 5.195000 ms (FindLiveObjects: 0.314300 ms CreateObjectMapping: 0.221700 ms MarkObjects: 4.173500 ms  DeleteObjects: 0.482000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004440 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.243 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1244ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1044ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (117ms)
+			SetupLoadedEditorAssemblies (484ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (296ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.98 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+Unloading 3198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (412.7 KB). Loaded Objects now: 3803.
+Memory consumption went from 156.4 MB to 156.0 MB.
+Total: 4.047200 ms (FindLiveObjects: 0.235500 ms CreateObjectMapping: 0.090500 ms MarkObjects: 3.449900 ms  DeleteObjects: 0.270200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006176 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.23 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.251 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1251ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1036ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (116ms)
+			SetupLoadedEditorAssemblies (473ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (284ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.12 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (412.9 KB). Loaded Objects now: 3807.
+Memory consumption went from 156.4 MB to 156.0 MB.
+Total: 3.718200 ms (FindLiveObjects: 0.330700 ms CreateObjectMapping: 0.252900 ms MarkObjects: 2.863000 ms  DeleteObjects: 0.269200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005008 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.227 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1228ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1014ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (278ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (115ms)
+			SetupLoadedEditorAssemblies (457ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (279ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.98 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (404.8 KB). Loaded Objects now: 3811.
+Memory consumption went from 156.4 MB to 156.0 MB.
+Total: 3.576800 ms (FindLiveObjects: 0.225900 ms CreateObjectMapping: 0.099900 ms MarkObjects: 2.975400 ms  DeleteObjects: 0.273500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -556,7 +614,31 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 353.396858 seconds.
-  path: Assets/Script/SavePos.cs
-  artifactKey: Guid(7ff71ec5017a3a64ea635e4dd8b2c50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/SavePos.cs using Guid(7ff71ec5017a3a64ea635e4dd8b2c50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb5ac5a238552ab3a08fd689e9c6304') in 0.009855 seconds 
+  Time since last request: 483220.887127 seconds.
+  path: Assets/Prefab/concrete1-1K
+  artifactKey: Guid(e9fb94a57cbf7814990d847694eba506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/concrete1-1K using Guid(e9fb94a57cbf7814990d847694eba506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3957d2747ff2d5b0b08b669b8883b9bc') in 0.019264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.648357 seconds.
+  path: Assets/Prefab/accessory_001
+  artifactKey: Guid(874a40ac36e4b034f881dd342a6f889b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/accessory_001 using Guid(874a40ac36e4b034f881dd342a6f889b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d96c8203d63dbaf6667787de0832d0c') in 0.009885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.092206 seconds.
+  path: Assets/Prefab/accessory_001/Materials
+  artifactKey: Guid(9a2d25690e9bcf947a9146212e8f4f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/accessory_001/Materials using Guid(9a2d25690e9bcf947a9146212e8f4f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330506768265d49f278a70ef8d3151c4') in 0.011687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 195.887159 seconds.
+  path: Assets/Prefab/Bin_v1.0 (3).prefab
+  artifactKey: Guid(145aa20e1f72feb4389c8d093fdb8a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Bin_v1.0 (3).prefab using Guid(145aa20e1f72feb4389c8d093fdb8a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c4baaceb7ddbc2544dcc272028610e') in 0.200783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.054762 seconds.
+  path: Assets/Material/Color/Red.mat
+  artifactKey: Guid(a9b39449d4b3ce4438b9728482a35828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Color/Red.mat using Guid(a9b39449d4b3ce4438b9728482a35828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac5eec736a5c3829b7dc8a62bb6ec0e') in 0.045444 seconds 
