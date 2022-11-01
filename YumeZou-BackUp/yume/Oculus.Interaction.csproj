@@ -267,8 +267,8 @@
      <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Grab\SnapSurfaces\BezierGrabSurface.cs" />
      <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Interaction\Pointable\VirtualPointable.cs" />
      <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Input\OVRIntegration\OVRInputDeviceActiveState.cs" />
-     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Throw\IVelocityCalculator.cs" />
      <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Unity\PointableCanvasModule.cs" />
+     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Throw\IVelocityCalculator.cs" />
      <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Interaction\Pointable\PointableDebugVisual.cs" />
      <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\PoseDetection\Debug\ActiveStateDebugVisual.cs" />
      <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\PoseDetection\SequenceActiveState.cs" />

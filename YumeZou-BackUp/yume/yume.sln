@@ -45,11 +45,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facebook.Wit.Editor", "Face
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Interaction.Editor", "Oculus.Interaction.Editor.csproj", "{1deabf5d-3a7e-e691-4f8a-4d08b7e42bc8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{9ad5bdad-9a2b-dee7-dd94-0f2f09168338}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facebook.Wit.Conduit.Editor", "Facebook.Wit.Conduit.Editor.csproj", "{c4db0aca-9f35-8025-dc9f-72358c65da04}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZibraAILiquid.Settings.Editor", "ZibraAILiquid.Settings.Editor.csproj", "{dd1c63db-6ece-1837-f65f-8b4c4289a7c3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{9ad5bdad-9a2b-dee7-dd94-0f2f09168338}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Interaction.Samples.Editor", "Oculus.Interaction.Samples.Editor.csproj", "{62f2a6c3-ec4d-3d92-98e8-a96eae278f5a}"
 EndProject
@@ -128,12 +128,12 @@ Global
 		{2ae99c0c-8178-831c-0c89-a82544f87a64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1deabf5d-3a7e-e691-4f8a-4d08b7e42bc8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1deabf5d-3a7e-e691-4f8a-4d08b7e42bc8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ad5bdad-9a2b-dee7-dd94-0f2f09168338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ad5bdad-9a2b-dee7-dd94-0f2f09168338}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{c4db0aca-9f35-8025-dc9f-72358c65da04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{c4db0aca-9f35-8025-dc9f-72358c65da04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{dd1c63db-6ece-1837-f65f-8b4c4289a7c3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{dd1c63db-6ece-1837-f65f-8b4c4289a7c3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9ad5bdad-9a2b-dee7-dd94-0f2f09168338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9ad5bdad-9a2b-dee7-dd94-0f2f09168338}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62f2a6c3-ec4d-3d92-98e8-a96eae278f5a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{62f2a6c3-ec4d-3d92-98e8-a96eae278f5a}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2cbf95f6-b637-af60-a5d5-8066b748dda3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
