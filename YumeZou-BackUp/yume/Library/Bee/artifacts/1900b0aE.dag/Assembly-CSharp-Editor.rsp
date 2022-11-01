@@ -442,6 +442,11 @@
 "Assets/Oculus/SampleFramework/Editor/BuildSamples.cs"
 "Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs"
 "Assets/Oculus/SampleFramework/Usage/OVROverlayCanvas/Editor/OVROverlayCanvasEditor.cs"
+"Assets/PathCreator/Core/Editor/Helper/MouseUtility.cs"
+"Assets/PathCreator/Core/Editor/Helper/PathHandle.cs"
+"Assets/PathCreator/Core/Editor/Helper/ScreenSpacePolyLine.cs"
+"Assets/PathCreator/Core/Editor/PathEditor.cs"
+"Assets/PathCreator/Examples/Scripts/Editor/PathSceneToolEditor.cs"
 "Assets/Unknown/com/heparo/terrain/toolkit/editor/TerrainToolkitEditor.cs"
 -langversion:9.0
 
