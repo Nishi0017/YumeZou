@@ -5,6 +5,7 @@ using UnityEngine;
 public class AwaGenerater : MonoBehaviour
 {
     [Header("煙")] public kemuriController kemuriController;
+    [Header("リセットゲーム")] public ResetGame resetGame;
     [Header("クローン数")] public int n = 30;
     [Header("泡のプレハブ")]public GameObject[] awaPrefab;
     [Header("発生する感覚（最小）")] public int mini = 3;
@@ -20,6 +21,7 @@ public class AwaGenerater : MonoBehaviour
     {
         clonePos = this.transform.position;
         parentFloor = transform.parent.gameObject;
+        resetGame.resetGame();
         
     }
 
