@@ -11,7 +11,6 @@ public class ResetGame : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(timer);
         if (n == 0)
         {
             timer += Time.deltaTime;

@@ -6,6 +6,7 @@ using UnityEngine;
 public class atari : MonoBehaviour
 {
     public GameObject kemuri;
+    public AudioClip inputWater;
 
     private Color objColor = Color.white;
     
@@ -34,8 +35,12 @@ public class atari : MonoBehaviour
             objColor = obj.GetComponent<Renderer>().material.color;
             GetComponent<Renderer>().material.color = objColor;
             saveColorScript.SaveColor(objColor);
-            GameObject ObjParent = obj.transform.parent.gameObject;
-            Destroy(ObjParent);
+            GameObject objParent = obj.transform.parent.gameObject;
+            PlaySound playSound = objParent.GetComponent<PlaySound>();
+            Debug.Log(objParent);
+            playSound.PlaySE(inputWater);
+            SavePos savePos = objParent.GetComponent<SavePos>();
+            savePos.ReturnPos();
         }
         else if (other.gameObject.tag == "KL")
         {
